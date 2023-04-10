@@ -1,6 +1,6 @@
 # int8
-bitsandbytes==0.37.1
-accelerate==0.17.1
+bitsandbytes
+accelerate
 
 # chatglm
 protobuf
