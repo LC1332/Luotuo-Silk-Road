@@ -1,14 +1,11 @@
 # int8
 bitsandbytes
-accelerate
 
 # chatglm
-protobuf
 git+https://github.com/huggingface/transformers.git
-icetk
+git+https://github.com/huggingface/peft.git
+sentencepiece
 cpm_kernels
-torch>=1.13.1
-
-# 
-datasets==2.10.1
-git+https://github.com/huggingface/peft.git  # 最新版本 >=0.3.0.dev0
+mdtex2html
+protobuf
+torch
