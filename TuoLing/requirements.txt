@@ -2,8 +2,8 @@
 bitsandbytes
 
 # chatglm
-git+https://github.com/huggingface/transformers.git
-git+https://github.com/huggingface/peft.git
+transformers==4.27.1
+peft
 sentencepiece
 cpm_kernels
 mdtex2html
