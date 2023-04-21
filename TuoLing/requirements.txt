@@ -2,7 +2,7 @@
 bitsandbytes
 
 # chatglm
-transformers==4.27.1
+transformers
 peft
 sentencepiece
 cpm_kernels
