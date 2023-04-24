@@ -3,7 +3,7 @@ bitsandbytes
 
 # chatglm
 transformers
-peft
+git+github.com/huggingface/peft.git
 sentencepiece
 cpm_kernels
 mdtex2html
