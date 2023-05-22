@@ -100,9 +100,63 @@ Wizard-LM包含了很多难度超过Alpaca的指令。
 
 ## 阅读理解数据
 
+阅读理解数据包含story-questions-answers的组合。
+
 ### Chinese-CoQA
 
+https://huggingface.co/datasets/silk-road/Luotuo-QA-A-CoQA-Chinese
+
+Chinese-CoQA是在CoQA上进行的中文翻译和增广。使用这个数据集需要签署协议。
+
+```python
+from datasets import load_dataset
+
+# If the dataset is gated/private, make sure you have run huggingface-cli login
+dataset = load_dataset("silk-road/Luotuo-QA-A-CoQA-Chinese")
+```
+
+CoQA中的文本来自七个不同领域的段落：儿童故事、文学作品、中学和高中英语考试、新闻、维基百科、Reddit和Science。
+
+CoQA数据集经过简单清洗，共有7012个story，我们在此基础上将整个数据集翻译成了中文并进行了增广，其中每个story中包含5个左右的问题，每个问题进行了5次增广。
+
+我们的协议与CoQA数据集原始协议保持一致，请阅读以下内容。
+
+CoQA数据集包含来自七个领域的段落。我们将其中五个领域的段落以以下许可证公开：
+
+文学和维基百科段落遵循CC BY-SA 4.0许可证共享。 儿童故事选自MCTest，该数据集附带MSR-LA许可证。 中学/高中考试段落选自RACE，该数据集有自己的许可证。 新闻段落选自DeepMind CNN数据集，该数据集有Apache许可证。
+
+
 ### Luotuo-QA-B
+
+https://huggingface.co/datasets/Logic123456789/luotuoQA-B
+
+Luotuo-QA-B是一个增广的阅读理解问题。
+
+```python
+from datasets import load_dataset
+
+# If the dataset is gated/private, make sure you have run huggingface-cli login
+dataset = load_dataset("Logic123456789/luotuoQA-B")
+```
+
+我们的数据集是在3个开源数据集之上生成构建的，这3个数据集分别是：
+
+- Chinese Scientific Literature Dataset
+
+- CNN-DailyMail News Text Summarization
+
+- arXiv Dataset
+
+我们在这些数据集的基础上针对每一个摘要或新闻生成了5个“问题-答案”对。数据分布如下：
+
+-从Chinese Scientific Literature Dataset(CSL)数据集中生成了25836条中文数据，共129180个问答对。
+
+-从CNN-DailyMail News Text Summarization数据集中生成了2026条数据，共10130个问答对。
+
+-从arXiv Dataset数据集中生成了3602条英文数据，共18010个问答对。
+
+此外，由于此数据集是我们[Luotuo-QA](https://github.com/LC1332/Luotuo-QA)项目的一部分，我们将它命名为luotuo-QA-B。
+
 
 ---
 
@@ -110,6 +164,9 @@ Wizard-LM包含了很多难度超过Alpaca的指令。
 
 
 ### Chinese-MMC4-130k
+
+
+### Chinese-Coco-Captioning
 
 ---
 
