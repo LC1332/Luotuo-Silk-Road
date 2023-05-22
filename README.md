@@ -165,15 +165,37 @@ dataset = load_dataset("Logic123456789/luotuoQA-B")
 
 ### Chinese-MMC4-130k
 
+https://huggingface.co/datasets/silk-road/MMC4-130k-chinese-image
+
+MMC4-130k-chinese是对MMC4中，抽样了130k左右 simliarty较高的图文pair得到的数据集
+
+并对这里所有的caption进行了翻译。由于这批抽样是MMC4上CLIP-L-14 similarity较高响应的图片，响应普遍都在0.4及以上。
+
+怀疑OpenAI CLIP训练的时候，大量使用了图内带文字的图片。
 
 ### Chinese-Coco-Captioning
+
+[Coming Soon]
+
+Chinese-Coco-Captioning是对CocoCaption进行了翻译
+
+我们翻译了包括Coco-2017的训练集以及若干个其他年份的Validation集合。
+
+这部分数据正在整理，将在之后发布
 
 ---
 
 ## Embedding蒸馏数据
 
-
 ### CNewSum-Embedding
+
+[Coming Soon]
+
+CNewSum-Embedding是我们在训练[骆驼嵌入](https://github.com/LC1332/Luotuo-Text-Embedding)时使用的数据
+
+对235k的中文新闻数据，实行了断句成为前后文。并且对于前后文分别求了OpenAI的1536维的Embedding特征。
+
+这部分数据正在整理，将在之后发布
 
 ---
 
