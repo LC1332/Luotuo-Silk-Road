@@ -69,6 +69,22 @@ Chinese-Dolly-15k是骆驼团队翻译的Dolly instruction数据集。
 
 ### Chinese-WizardLM
 
+https://huggingface.co/datasets/silk-road/Wizard-LM-Chinese-instruct-evol
+
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("silk-road/Wizard-LM-Chinese-instruct-evol")
+```
+
+Chinese-WizardLM是在MSRA的Wizard-LM数据集上，对指令进行翻译，然后再调用GPT获得答案的数据集
+
+Wizard-LM包含了很多难度超过Alpaca的指令。
+
+中文的问题翻译会有少量指令注入导致翻译失败的情况.
+
+中文回答是根据中文问题再进行问询得到的。
 
 ### 更多的指令数据集
 
