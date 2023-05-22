@@ -13,6 +13,9 @@
 骆驼项目发起至今，主要涉及以下几类数据
 
 - [指令数据集](#指令数据集)
+
+    - [Luotuo-Chinese-Alpaca](#Luotuo-Chinese-Alpaca)
+
 - [阅读理解数据](#阅读理解数据)
 - [图文跨模态数据](#图文跨模态数据)
 - [Embedding蒸馏数据](#Embedding蒸馏数据)
