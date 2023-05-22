@@ -12,7 +12,7 @@
 
 骆驼项目发起至今，主要涉及以下几类数据
 
-- [指令数据集](#指令数据集)
+- [对话与指令数据集](#对话与指令数据集)
     - [Luotuo-Chinese-Alpaca](#Luotuo-Chinese-Alpaca)
     - [Chinese-Dolly](#Chinese-Dolly)
     - [Chinese-WizardLM](#Chinese-WizardLM)
@@ -21,13 +21,14 @@
     - [Luotuo-QA-B](#Luotuo-QA-B)
 - [图文跨模态数据](#图文跨模态数据)
     - [Chinese-MMC4-130k](#Chinese-MMC4-130k)
+    - [Chinese-Coco-Captioning](#Chinese-Coco-Captioning)
 - [Embedding蒸馏数据](#Embedding蒸馏数据)
     - [CNewSum-Embedding](#CNewSum-Embedding)
 
 
 ---
 
-## 指令数据集
+## 对话与指令数据集
 
 
 ### Luotuo-Chinese-Alpaca
