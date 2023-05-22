@@ -202,6 +202,16 @@ CNewSum-Embedding是我们在训练[骆驼嵌入](https://github.com/LC1332/Luot
 
 ## 人员
 
+最早的Luotuo-Chinese-Alpaca由李鲁鲁、冷子昂和陈启源共同完成。
+
+后来黄泓森编写了更好的并行翻译脚本。
+
+罗钦雨编写了Chinese-CoQA的协议，并且筹备了Luotuo-B数据集
+
+李鲁鲁翻译了大多数其他的数据集，并且维护了hugging face的页面
+
+CocoCaptioning，CNewSum-Embedding是由黄泓森和陈启源共同维护的。现在胡婧正在做进一步的工作。
+
 <a name="赞助"></a>
 
 ## 赞助(Sponsorship) 骆驼项目
