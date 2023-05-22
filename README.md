@@ -10,6 +10,11 @@
     <img src="https://github.com/LC1332/Luotuo-Chinese-LLM/blob/main/image/icon_silk_road.png" height="250">
 </p>
 
++ If you find this helpful, please star our major repo [Luotuo(骆驼)](https://github.com/LC1332/Luotuo-Chinese-LLM), Thanks Very Much
+
++ 如果你感到这个页面对你有帮助，拜托您去我们[骆驼的主页](https://github.com/LC1332/Luotuo-Chinese-LLM)也点上star，非常感谢！另外对于数据的需求，也尽量去主项目页提issue，谢谢。
+
+
 骆驼项目发起至今，主要涉及以下几类数据
 
 - [对话与指令数据集](#对话与指令数据集)
