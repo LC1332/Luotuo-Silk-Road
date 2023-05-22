@@ -13,12 +13,16 @@
 骆驼项目发起至今，主要涉及以下几类数据
 
 - [指令数据集](#指令数据集)
-
     - [Luotuo-Chinese-Alpaca](#Luotuo-Chinese-Alpaca)
-
+    - [Chinese-Dolly](#Chinese-Dolly)
+    - [Chinese-WizardLM](#Chinese-WizardLM)
 - [阅读理解数据](#阅读理解数据)
+    - [Chinese-CoQA](#Chinese-CoQA)
+    - [Luotuo-QA-B](#Luotuo-QA-B)
 - [图文跨模态数据](#图文跨模态数据)
+    - [Chinese-MMC4-130k](#Chinese-MMC4-130k)
 - [Embedding蒸馏数据](#Embedding蒸馏数据)
+    - [CNewSum-Embedding](#CNewSum-Embedding)
 
 
 ---
@@ -59,13 +63,23 @@ dataset = load_dataset("silk-road/Vanilla-chinese-alpaca-luotuo")
 
 ## 阅读理解数据
 
+### Chinese-CoQA
+
+### Luotuo-QA-B
+
 ---
 
 ## 图文跨模态数据
 
+
+### Chinese-MMC4-130k
+
 ---
 
 ## Embedding蒸馏数据
+
+
+### CNewSum-Embedding
 
 ---
 
