@@ -33,6 +33,8 @@
 
 ### Luotuo-Chinese-Alpaca
 
+https://huggingface.co/datasets/silk-road/Vanilla-chinese-alpaca-luotuo
+
 Chinese-Alpaca是我们在3月21日启动骆驼项目时候最早使用的数据集。包含了斯坦福Alpaca的翻译数据（有丢失）。
 
 并且由于当时使用了较为初级的翻译指令，对于指令翻译会有“注入”的现象，会引入一定的噪音
@@ -51,6 +53,19 @@ dataset = load_dataset("silk-road/Vanilla-chinese-alpaca-luotuo")
 
 ### Chinese-Dolly
 
+https://huggingface.co/datasets/silk-road/chinese-dolly-15k
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("silk-road/chinese-dolly-15k")
+```
+
+Chinese-Dolly-15k是骆驼团队翻译的Dolly instruction数据集。
+
+原数据集'databricks/databricks-dolly-15k'是由数千名Databricks员工根据InstructGPT论文中概述的几种行为类别生成的遵循指示记录的开源数据集。这几个行为类别包括头脑风暴、分类、封闭型问答、生成、信息提取、开放型问答和摘要。
+
+翻译后的数据包含完整的中英文对照的context和instruction字段，并且还有问题所属的category。
 
 ### Chinese-WizardLM
 
