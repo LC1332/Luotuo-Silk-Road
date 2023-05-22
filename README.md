@@ -23,6 +23,35 @@
 ## 指令数据集
 
 
+### Luotuo-Chinese-Alpaca
+
+Chinese-Alpaca是我们在3月21日启动骆驼项目时候最早使用的数据集。包含了斯坦福Alpaca的翻译数据（有丢失）。
+
+并且由于当时使用了较为初级的翻译指令，对于指令翻译会有“注入”的现象，会引入一定的噪音
+
+Hugging Face使用方式:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("silk-road/Vanilla-chinese-alpaca-luotuo")
+```
+
+如果你希望更好的翻译方式，请查看更好的翻译脚本 <a href="https://colab.research.google.com/github/LC1332/Luotuo-Chinese-LLM/blob/main/notebook/improvedTranslation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+
+如果你希望质量更好的指令数据集，请查看后文的Chinese-WizardLM和Chinese-Dolly
+
+### Chinese-Dolly
+
+
+### Chinese-WizardLM
+
+
+### 更多的指令数据集
+
+在训练[迷你骆驼](https://github.com/LC1332/Mini-Luotuo)的时候，我们参考PandasLLM和HuggingFace，合并了15M的指令数据。我们正在研究这部分数据是否可以用合适的方式发布出来。
+
+
 ---
 
 ## 阅读理解数据
