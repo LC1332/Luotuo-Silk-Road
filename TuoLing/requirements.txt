@@ -2,7 +2,7 @@
 bitsandbytes
 
 # chatglm
-transformers
+transformers==4.27.1
 git+https://github.com/huggingface/peft.git
 sentencepiece
 cpm_kernels
